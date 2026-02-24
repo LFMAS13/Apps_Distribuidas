@@ -1,0 +1,22 @@
+{
+  "name": "primera_practica",
+  "version": "1.0.0",
+  "description": "Creacion de primera practica",
+  "keywords": [
+    "node.js",
+    "tcp",
+    "SHA256",
+    "Express"
+  ],
+  "license": "ISC",
+  "author": "Benites Garcilazo Luis Fernando",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "express": "^5.2.1"
+  }
+}

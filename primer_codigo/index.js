@@ -24,6 +24,10 @@ app.get("/aleatorio", async function (request, response) {
 });
 
 
+app.post("/echo", async function (request, response) {
+    const cid = request.body.id;
+    cont = request.body.;
+
 app.listen(3000, function() {
     console.log('Aplicación ejemplo, escuchando el puerto 3000!');
 });
